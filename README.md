@@ -106,7 +106,7 @@ ggplot(count_Categories_Drug_drugbank_id_target_gene_name, aes(x= reorder(catego
   theme(axis.title.y = element_blank())
 ```
 
-![](Drug-repurposing-and-visualization_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](docs/unnamed-chunk-3-1.png)
 
 ``` r
 # remove very rdundant cytochrome inhibitors and showing only top 100 classes
@@ -124,7 +124,7 @@ ggplot(count_Categories_subset, aes(x= reorder(category, freq), fill=freq, y= fr
   theme(axis.title.y = element_blank())
 ```
 
-![](Drug-repurposing-and-visualization_files/figure-markdown_github/unnamed-chunk-3-2.png)
+![](docs/unnamed-chunk-3-2.png)
 
 ``` r
 # subset by gene list, for example RNA binding proteins
@@ -149,4 +149,4 @@ ggplot(count_RBP_Categories_subset, aes(x= reorder(category, freq), fill=freq, y
   theme(axis.title.y = element_blank())
 ```
 
-![](Drug-repurposing-and-visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](docs/unnamed-chunk-4-1.png)
